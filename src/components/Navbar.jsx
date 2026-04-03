@@ -1,6 +1,5 @@
-import { House } from 'lucide-react'
 import React from 'react'
-import { BiMessageRoundedDots } from 'react-icons/bi'
+import { BiMessageRoundedDots, BiSolidMessageDots } from 'react-icons/bi'
 import { BsGrid3X3GapFill } from 'react-icons/bs'
 import { FaBell, FaCircle, FaSearch } from 'react-icons/fa'
 import { IoBagRemoveSharp, IoHomeSharp, IoPeople } from 'react-icons/io5'
@@ -28,7 +27,7 @@ const Navbar = () => {
                     <button className='w-[65px] h-full flex flex-col justify-center cursor-pointer text-[#666666] items-center '><IoBagRemoveSharp className='w-6 h-6' />
                     <p className='text-[12px]'>Home</p>
                     </button>
-                    <button className='w-[65px] h-full flex flex-col justify-center cursor-pointer text-[#666666] items-center '><BiMessageRoundedDots className='w-6 h-6' />
+                    <button className='w-[65px] h-full flex flex-col justify-center cursor-pointer text-[#666666] items-center '><BiSolidMessageDots className='w-6 h-6' />
                     <p className='text-[12px]'>Home</p>
                     </button>
                     <button className='w-[65px] h-full flex flex-col justify-center cursor-pointer text-[#666666] items-center '><FaBell className='w-6 h-6' />
