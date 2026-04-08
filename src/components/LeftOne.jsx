@@ -1,6 +1,6 @@
 import React from 'react'
 import userImage from '../assets/userImage.png'
-import bannerImage from '../assets/Banner.png'
+import bannerImage from '../assets/banner.png'
 import aciImage from "../assets/ACI.png"
 import openToWork from "../assets/openToWork.png"
 
